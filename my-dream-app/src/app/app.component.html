@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+           <h3>Todos</h3>
+<hr>
+<ol>
+    <li *ngFor="let item of list">
+      id: {{item.id}},<br>  UserId:{{item.userId}},<br>  title: "{{item.title}}" ,<br> completed:{{item.completed}}
+    </li>
+  </ol>
+ 
+        </div>
+    </div>
+</div>
